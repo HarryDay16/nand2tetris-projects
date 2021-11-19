@@ -43,4 +43,9 @@ CHIP ALU {
 
     PARTS:
    // Put you code here:
+   Mux16(a=x[0], b=x[0]-x[0], sel=zx, out=mux1out[0]);
+   
+   
+
+
 }
